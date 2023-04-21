@@ -1,0 +1,2140 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/33x22gb0.owl#"
+     xml:base="http://ontofox.hegroup.org/33x22gb0.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/pr_1.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A24 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A24">
+        <obo:IAO_0000115>An association that indicates a PCDC AML concept is a Permissible Value for a PCDC AML Variable concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A24</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Is_PCDC_AML_Permissible_Value_For_Variable</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Is_PCDC_AML_Permissible_Value_For_Variable</oboInOwl:hasExactSynonym>
+        <rdfs:label>Is_PCDC_AML_Permissible_Value_For_Variable</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A35 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A35">
+        <obo:IAO_0000115>An association that indicates a concept contains dedicated permissible value concept for a specific PCDC ALL Variable.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A35</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Is_PCDC_ALL_Permissible_Value_For_Variable</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Is_PCDC_ALL_Permissible_Value_For_Variable</oboInOwl:hasExactSynonym>
+        <rdfs:label>Is_PCDC_ALL_Permissible_Value_For_Variable</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P331 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P331">
+        <obo:IAO_0000115>A property that is used to establish correspondence between the NCI Thesaurus concept representing a taxon (species) and the NCBI/NLM Species Taxonomy ID assigned by the NCBI to that taxon.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P331</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>NCBI Taxon ID</obo:NCIT_P107>
+        <obo:NCIT_P108>NCBI_Taxon_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>NCBI_Taxon_ID</oboInOwl:hasExactSynonym>
+        <rdfs:label>NCBI_Taxon_ID</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Legacy_Concept_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Legacy Concept Name</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000006 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000006">
+        <obo:IAO_0000115>A GeneID in the NCBI Gene database </obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCBI GeneID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000007 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000007">
+        <obo:IAO_0000115>the NCBI LocusTag name of a gene </obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCBI LocusTag</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000008">
+        <obo:IAO_0000115>the map location of a gene</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">gene map location</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000009 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000009">
+        <obo:IAO_0000115>a date of content modification</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">modification date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000017 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000017">
+        <obo:IAO_0000115>A chromosome ID where a gene is located.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">chromosome ID of gene</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000019 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000019">
+        <obo:IAO_0000115>an annotation property that specifies a nomenclature status</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nomenclature status</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000029 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000029">
+        <obo:IAO_0000115>an annotation property that shows the GO information associated with a specific gene. </obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has GO association</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000030 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OGG_0000000030">
+        <obo:IAO_0000115>An annotation property that represents a gene&apos;s association with PubMed publication(s). </obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has PubMed association</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <rdfs:label>has exact synonym</rdfs:label>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <rdfs:label>in subset</rdfs:label>
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_84118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_84118">
+        <obo:IAO_0000115>A sialodiaosylceramide that is an alpha-N-acetylneuraminosyl-(2-&gt;3)-beta-D-galactosyl-(1-&gt;4)-beta-D-glucosyl-N-acylsphingosine in which the acyl group on nitrogen is (15Z)-tetracos-15-enoyl.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:inchi>InChI=1S/C65H118N2O21/c1-4-6-8-10-12-14-16-18-19-20-21-22-23-24-25-27-29-31-33-35-37-39-52(75)67-46(47(72)38-36-34-32-30-28-26-17-15-13-11-9-7-5-2)44-83-62-57(79)56(78)59(51(43-70)85-62)86-63-58(80)61(55(77)50(42-69)84-63)88-65(64(81)82)40-48(73)53(66-45(3)71)60(87-65)54(76)49(74)41-68/h18-19,36,38,46-51,53-63,68-70,72-74,76-80H,4-17,20-35,37,39-44H2,1-3H3,(H,66,71)(H,67,75)(H,81,82)/b19-18-,38-36+/t46-,47+,48-,49+,50+,51+,53+,54+,55-,56+,57+,58+,59+,60+,61-,62+,63-,65-/m0/s1</chebi:inchi>
+        <chebi:inchikey>PFJKOHUKELZMLE-VEUXDRLPSA-N</chebi:inchikey>
+        <chebi:mass>1263.63320</chebi:mass>
+        <chebi:monoisotopicmass>1262.82271</chebi:monoisotopicmass>
+        <oboInOwl:hasDbXref>PMID:24362891</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>(2S,3R,4E)-3-hydroxy-2-[(15Z)-tetracos-15-enoylamino]octadec-4-en-1-yl 5-acetamido-3,5-dideoxy-D-glycero-alpha-D-galacto-non-2-ulopyranonosyl-(2-&gt;3)-beta-D-galactopyranosyl-(1-&gt;4)-beta-D-glucopyranoside</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>G(M3) ganglioside</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>GM3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NANA-Gal-Glc-ceramide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alpha-Neu5Ac-(2-&gt;3)-beta-D-Gal-(1-&gt;4)-beta-D-Glc-(1&lt;-&gt;1)-N-(15Z)-tetracos-15-enoylsphingosine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alpha-Neu5Ac-(2-&gt;3)-beta-D-Gal-(1-&gt;4)-beta-D-Glc-(1&lt;-&gt;1)-N-cis-tetracos-15-enoylsphingosine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>monosialodihexosylganglioside</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>monosialoganglioside GM3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:84118</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>ganglioside GM3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C518"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C912"/>
+        <obo:IAO_0000115>A cell surface antigen expressed on all tumors of neuroectodermal origin, including melanoma, neuroblastomas, sarcoma, astrocytomas, and small cell lung cancer. GD2, an O-acetylated disialoganglioside, belongs to the group of glycosphingolipids that are widely expressed in many tissues and organs in vertebrates and have been suggested to be involved in the regulation of development and differentiation as recognition molecules or signal modulators. Due to its high level of expression in neuroblastoma, GD2 has the potential to be used as a component of anti-neuroblastoma vaccines, in addition to being used in polyvalent anti-melanoma vaccines.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Ganglioside GD2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C112027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C112027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14346"/>
+        <obo:IAO_0000115>A family of bullet-shaped, negative-sense viruses capable of infect a broad range of hosts in both the animal and plant kingdoms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C112027</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Rhabdoviridae</obo:NCIT_P108>
+        <obo:NCIT_P207>C0035414</obo:NCIT_P207>
+        <obo:NCIT_P331>11270</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>Rhabdoviridae</oboInOwl:hasExactSynonym>
+        <rdfs:label>Rhabdoviridae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C112031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C112031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14346"/>
+        <obo:IAO_0000115>A family of filamentous viruses with helical capsids and glycoprotein projections on their surface. The virus may have a branched morphology of varying length. The genome is composed of a linear single-strand of negative sense RNA. Filoviridae infect primates, pigs and bats in nature and are a causitive agent of viral hemorrhagic fevers in humans and primates.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C112031</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Filoviridae</obo:NCIT_P108>
+        <obo:NCIT_P207>C0085150</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the family Filoviridae.</obo:NCIT_P325>
+        <obo:NCIT_P331>11266</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>FILOVIRIDAE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Filoviridae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Filovirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Filoviridae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C112271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C112271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C112031"/>
+        <obo:IAO_0000115>A genus of filamentous, enveloped viruses with glycoprotein surface spikes, in the family Filoviridae. The genome is composed of a linear single-strand of negative sense RNA. The primary product of gene transcription of the fourth gene is a small glycoprotein (sGP), while RNA editing allows expression of full length glycoprotein. The Ebolavirus natural reservoir is considered to be fruit bats of the Pteropodidae family and cause severe hemorrhagic fevers in humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C112271</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Ebola Virus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0949892</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the genus Ebola virus.</obo:NCIT_P325>
+        <obo:NCIT_P331>186536</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>EBOLA VIRUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EBOV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ebola Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Ebola Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C112330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C112330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C112027"/>
+        <obo:IAO_0000115>A genus of enveloped, bullet or cylindrical shaped viruses in the family Rhabdoviridae. The genome is composed of a linear single-strand of negative sense RNA. Lyssavirus species 1 can be carried by any warm-blooded mammal while species 2-7 have specific hosts. Species in the genus Lyssavirus cause Rabies in humans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C112330</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Lyssavirus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0206546</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the genus Lyssavirus.</obo:NCIT_P325>
+        <obo:NCIT_P331>11286</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>LYSSAVIRUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lyssavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Lyssavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C112405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C112405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C112330"/>
+        <obo:IAO_0000115>A species of enveloped, rod- or bullet-shaped viruses in the Rhabdoviridae family and Lyssavirus genus. The genome is composed of single-stranded, negative-sense RNA. Rabies viruses are neurotropic and zoonotic. They are found in mammals and humans and causes acute infection of the central nervous system, neural degeneration, and fatal encephalitis in humans. Rabies viruses are transmitted via direct contact with saliva from infected animal or human bites.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C112405</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Rabies Virus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0034497</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the species Rabies virus.</obo:NCIT_P325>
+        <obo:NCIT_P331>11292</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>RABIES VIRUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Rabies Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Rabies Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14351"/>
+        <obo:IAO_0000115>A family of positive sense ssRNA viruses of zoonotic origin. They are the cause of respiratory, enteric, hepatic, and neurological diseases of varying severity in humans and animals. Bats, birds, and pigs act as major reservoirs of coronaviruses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C113205</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Coronaviridae</obo:NCIT_P108>
+        <obo:NCIT_P207>C0010076</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the family Coronaviridae.</obo:NCIT_P325>
+        <obo:NCIT_P331>11118</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>CORONAVIRIDAE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Coronaviridae</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Coronaviridae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26431"/>
+        <obo:IAO_0000115>A genus of enveloped and spherical positive sense ssRNA viruses in the subfamily Coronavirinae of the family Coronaviridae with a diameter of about 120 nm. Betacoronaviruses have a nonopartite, linear genome of 27-32 kb. Bats are the most common reservoir for betacoronaviruses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C113207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Betacoronavirus</obo:NCIT_P108>
+        <obo:NCIT_P207>C2806453</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the genus Betacoronavirus.</obo:NCIT_P325>
+        <obo:NCIT_P331>694002</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>BETACORONAVIRUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Beta-CoV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Betacoronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Coronavirus Group 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Betacoronavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14250">
+        <obo:IAO_0000115>A living entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14250</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organism</obo:NCIT_P106>
+        <obo:NCIT_P108>Organism</obo:NCIT_P108>
+        <obo:NCIT_P207>C0029235</obo:NCIT_P207>
+        <obo:NCIT_P322>BRIDG</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A living thing, such as an animal, a plant, a bacterium, or a fungus.</obo:NCIT_P325>
+        <obo:NCIT_P325>Any individual living (or previously living) being. EXAMPLE(S): animal, human being</obo:NCIT_P325>
+        <obo:NCIT_P366>Organisms</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>BiologicEntity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Organism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Organismal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Organisms</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Taxon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>organism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159501"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159503"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14346"/>
+        <obo:IAO_0000115>A family of negative-strand single-strand RNA viruses which includes Mumps and Measles viruses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14255</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Paramyxoviridae</obo:NCIT_P108>
+        <obo:NCIT_P207>C0030465</obo:NCIT_P207>
+        <obo:NCIT_P331>11158</obo:NCIT_P331>
+        <obo:NCIT_P366>Paramyxoviridae</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Paramyxoviridae</oboInOwl:hasExactSynonym>
+        <rdfs:label>Paramyxoviridae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14308"/>
+        <obo:IAO_0000115>A negative-sense, enveloped RNA virus. The virion is variable in shape and size with an average diameter of between 120 and 300 nm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14267</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P107>Human Respiratory Syncytial Virus</obo:NCIT_P107>
+        <obo:NCIT_P108>Human Respiratory Syncytial Virus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0206545</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A virus that causes respiratory infections with cold-like symptoms.</obo:NCIT_P325>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the species Human Respiratory Syncitial virus.</obo:NCIT_P325>
+        <obo:NCIT_P331>11250</obo:NCIT_P331>
+        <obo:NCIT_P366>Respiratory_Syncytial_Virus</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>HUMAN RESPIRATORY SYNCYTIAL VIRUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human RSV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human Respiratory Syncytial Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RSV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Respiratory Syncytial Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hRSV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>respiratory syncytial virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118168"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Human Respiratory Syncytial Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14283"/>
+        <obo:IAO_0000115>A virus whose genome consists of RNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14269</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>RNA Virus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0035691</obo:NCIT_P207>
+        <obo:NCIT_P366>RNA_Virus</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>RNA Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Virus-RNA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Viruses, RNA</oboInOwl:hasExactSynonym>
+        <rdfs:label>RNA Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14250"/>
+        <obo:IAO_0000115>An infectious agent which consists of two parts, genetic material and a protein coat. These organisms lack independent metabolism, and they must infect the cells of other types of organisms to reproduce. Most viruses are capable of passing through fine filters that retain bacteria, and are not visible through a light microscope.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14283</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Virus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0042776</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>An infectious agent that comprises two parts: genetic material and a protein coat. These organisms lack independent metabolism, and they must infect the cells of other types of organisms to reproduce.</obo:NCIT_P325>
+        <obo:NCIT_P325>Any infectious agent assigned to the superkingdom Virus.</obo:NCIT_P325>
+        <obo:NCIT_P325>In medicine, a very simple microorganism that infects cells and may cause disease. Because viruses can multiply only inside infected cells, they are not considered to be alive.</obo:NCIT_P325>
+        <obo:NCIT_P331>10239</obo:NCIT_P331>
+        <obo:NCIT_P366>Virus</obo:NCIT_P366>
+        <obo:NCIT_P98>Some viruses have a third component, a lipid envelope that surrounds the protein coat which can protect the virus particle from environmental exposure.</obo:NCIT_P98>
+        <obo:NCIT_P98>The complete particle usually contains only DNA or RNA, not both, and is usually covered by a protein shell or capsid that protects the nucleic acid. They range in size from 15 um up to several hundred um. Classification of viruses depends upon characteristics of virions as well as upon mode of transmission, host range, symptomatology, and other factors.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>VIRUS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Viruses</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Viruses, General</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128453"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158119"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173217"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174019"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178115"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178127"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186334"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14255"/>
+        <obo:IAO_0000115>A subfamily of Paramyxoviridae which includes human respiratory syncytial virus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14308</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Pneumovirinae</obo:NCIT_P108>
+        <obo:NCIT_P207>C0206534</obo:NCIT_P207>
+        <obo:NCIT_P331>11244</obo:NCIT_P331>
+        <obo:NCIT_P366>Pneumovirinae</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Pneumovirinae</oboInOwl:hasExactSynonym>
+        <rdfs:label>Pneumovirinae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14269"/>
+        <obo:IAO_0000115>A single stranded RNA virus where the RNA strand is the complement of a mRNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14346</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Negative Sense ssRNA Virus</obo:NCIT_P108>
+        <obo:NCIT_P207>C1093214</obo:NCIT_P207>
+        <obo:NCIT_P331>35301</obo:NCIT_P331>
+        <obo:NCIT_P366>ssRNA_Virus_Strand</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>(-) Strand ssRNA Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Negative Sense ssRNA Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Negative Strand ssRNA Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ssRNA Virus, (-) Strand</oboInOwl:hasExactSynonym>
+        <rdfs:label>Negative Sense ssRNA Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14269"/>
+        <obo:IAO_0000115>A single stranded RNA virus where the RNA strand has the same polarity as a mRNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C14351</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Positive Sense ssRNA Virus</obo:NCIT_P108>
+        <obo:NCIT_P207>C1005564</obo:NCIT_P207>
+        <obo:NCIT_P331>35278</obo:NCIT_P331>
+        <obo:NCIT_P366>ssRNA_Virus_plus_Strand</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>+ Strand ssRNA Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Positive Sense ssRNA Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Positive Strand ssRNA Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ssRNA Virus, (+) Strand</oboInOwl:hasExactSynonym>
+        <rdfs:label>Positive Sense ssRNA Virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C169076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C169076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C113207"/>
+        <obo:IAO_0000115>A positive-sense single-stranded RNA virus in the genus Betacoronavirus. It is the causative agent of the 2019-2020 severe acute respiratory syndrome outbreak.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C169076</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P107>SARS Coronavirus 2</obo:NCIT_P107>
+        <obo:NCIT_P108>SARS Coronavirus 2</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1378879</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the severe acute respiratory syndrome Coronavirus 2.</obo:NCIT_P325>
+        <obo:NCIT_P331>2697049</obo:NCIT_P331>
+        <oboInOwl:hasExactSynonym>2019 Novel Coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>2019-nCoV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>COVID-19 Virus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HCoV-19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human Coronavirus 2019</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Novel Coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Severe Acute Respiratory Syndrome Coronavirus 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nCoV</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>SARS Coronavirus 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C263"/>
+        <obo:IAO_0000115>Any agent that directly binds to and inactivates thrombin (factor IIa), with anticoagulant activity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Direct Thrombin Inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179573">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 69, 70 and 144 and amino acid substitutions N501Y, A570D, D614G, P681H, T716I, S982A and D1118H. The substitutions E484K, S494P and K1191N have also been detected in some but not all sequences for this lineage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179573</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.1.7</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1662090</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 20I</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.1.7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.1.7 UK</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.1.7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.1.7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.1.7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.1.7</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.1.7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 241-242 and amino acid substitutions D80A, D215G, K417N, E484K, N501Y, D614G and A701V.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179575</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.351</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663129</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 20H</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.351</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.351 South Africa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Beta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.351</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.351</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.351</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.351</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.351</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions L452R and D614G.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179576</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.427</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663110</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21C</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.427</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.427 US California</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Epsilon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.427</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.427</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.427</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.427</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.427</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions S13I, W152C, L452R and D614G.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179577</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.429</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1662190</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21C</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.429</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.429 US California</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Epsilon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.429</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.429</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.429</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.429</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.429</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 69, 70 and 144 and amino acid substitutions A67V, E484K, D614G, Q677H and F888L.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179579</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.525</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663123</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21D</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.525</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.525 UK/Nigeria December 2020</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Eta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.525</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.525</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.525</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.525</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.525</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions T95I, D253G and D614G. The substitutions L5F, S477N, E484K and A701V have also been detected in some but not all sequences for this lineage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179580</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.526</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663128</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21F</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.526</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.526 US New York November 2020</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Iota</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.526</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.526</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.526</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.526</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.526</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletion of the amino acids at position 144 and amino acid substitutions D80G, F157S, L452R, D614G and D950H. The substitutions T791I and T859N have also been detected in some but not all sequences for this lineage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179582</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.526.1</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1662185</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>B.1.526.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.526.1 US New York October 2020</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.526.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.526.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.526.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.526.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.526.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions L452R, E484Q and D614G.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179583</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.617</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1662188</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 20A</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.617</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.617 India February 2021</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.617</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.617</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.617</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.617</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.617</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions G142D, E154K, L452R, E484Q, D614G, P681R and Q1071H. The substitution T95I has also been detected in some but not all sequences for this lineage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179585</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.617.1</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663122</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21B</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.617.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.617.1 India December 2020</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kappa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.617.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.617.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.617.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.617.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.617.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 156 and 157 and amino acid substitutions T19R, R158G, L452R, T478K, D614G, P681R and D950N. The substitution G142D has also been detected in some but not all sequences for this lineage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179586</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.617.2</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663109</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21A</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.617.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.617.2 India December 2020</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Delta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.617.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.617.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.617.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.617.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.617.2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions T19R, G142D, L452R, E484Q, D614G, P681R, D950N.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179596</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.617.3</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1662175</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>B.1.617.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.617.3 India October 2020</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.617.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.617.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.617.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.617.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.617.3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions E484K, D614G and V1176F. The substitution F565L has also been detected in some but not all sequences for this lineage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179598</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 P.2</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663113</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>B.1.1.28.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.128.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>P.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>P.2 Brazil April 2020</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 P.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage P.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.128.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 P.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 P.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Zeta</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 P.2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions L18F, T20N, P26S, D138Y, R190S, K417T, E484K, N501Y, D614G, H655Y, T1027I and V1176F.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179599</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 P.1</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663130</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 20J</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.1.28.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.128.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gamma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>P.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>P.1 Japan/Brazil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 P.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage P.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.128.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 P.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 P.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 P.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 that is the ancestor for the P.1 and P.2 lineages.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C179600</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.128</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1662173</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>B.1.1.28</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.128 Brazil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.128</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.128</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.128</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C180325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C180325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletion of the amino acids 141, 142 and 143 and amino acid substitutions E484K, N501Y, P681H, D614G, H1101Y, E1092K and V1176F.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C180325</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 P.3</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663121</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21E</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>P.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 P.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage P.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 P.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 P.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Theta</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 P.3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C180619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C180619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C263"/>
+        <obo:IAO_0000115>An agent taken orally to prevent blood clot formation by directly inhibiting certain coagulation factors including thrombin (factor IIa) or factor Xa.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Direct Oral Anticoagulant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C180778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C180778">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 247-253 and amino acid substitutions G75V, T76I, L452Q, F490S, D614G and T859N.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C180778</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 C.37</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663507</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21G</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>C.37</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lambda</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 C.37</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage C.37</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 C.37</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 C.37</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 C.37</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C180913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C180913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: an amino acid insertion 146N and amino acid substitutions T95I, Y144T, Y145S, R346K, E484K, N501Y, D614G, P681H and D950N.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C180913</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.621</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1664951</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21H</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.621</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mu</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.621</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.621</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.621</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.621</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.621</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C180977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C180977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: amino acid substitutions T19R, W258L, K417N, L452R, T478K, D614G, P681R and D950N.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C180977</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 AY.1</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663711</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>AY.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.617.2.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Delta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 AY.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.617.2.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage AY.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.617.2.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 AY.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1617.2.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 AY.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.617.2.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 AY.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C181075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C181075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletion of amino acids 157 and 158 and amino acid substitutions T19R, E156G, L452R, T478K, D614G, P681R and D950N.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C181075</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 AY.3</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1663710</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>AY.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B.1.617.2.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Delta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 AY.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.617.2.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage AY.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.617.2.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 AY.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1617.2.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 AY.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.617.2.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 AY.3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 69/70, 143/145 and 212 and amino acid substitutions A67V, T95I, G142D, N211I, G339D, S371L, S373P, S375F, S477N, T478K, E484A, Q493R, G496S, Q498R, N501Y, Y505H, T547K, D614G, H655Y, N679K, P681H, D796Y, N856K, Q954H, N969K and L981F.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C184327</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 B.1.1.529</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1773291</obo:NCIT_P208>
+        <obo:NCIT_P98>Nextstrain ID: 21K</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.1.529</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 B.1.1.529</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage B.1.1.529</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.1.529</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 B.1.1.529</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 B.1.1.529</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14267"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C184696</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Human Respiratory Syncytial Virus Type A</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1772735</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the species Human Respiratory Syncytial virus type A.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Human Respiratory Syncytial Virus Type A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RESPIRATORY SYNCYTIAL VIRUS TYPE A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RSV Type A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RSV-A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Respiratory Syncytial Virus Subsp. A</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Human Respiratory Syncytial Virus Type A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C184697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C184697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14267"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C184697</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Human Respiratory Syncytial Virus Type B</obo:NCIT_P108>
+        <obo:NCIT_P208>CL1772733</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any viral organism that can be assigned to the species Human Respiratory Syncytial virus type B.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Human Respiratory Syncytial Virus Type B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RESPIRATORY SYNCYTIAL VIRUS TYPE B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RSV Type B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RSV-B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Respiratory Syncytial Virus Subsp. B</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85491"/>
+        <rdfs:label>Human Respiratory Syncytial Virus Type B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C185726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C185726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 69/70, 143/145 and 212 and amino acid substitutions A67V, T95I, G142D, N211I, G339D, R346K, S371L, S373P, S375F, S477N, T478K, E484A, Q493R, G496S, Q498R, N501Y, Y505H, T547K, D614G, H655Y, N679K, P681H, N764K, D796Y, N856K, Q954H, N969K and L981F.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C185726</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 BA.1.1</obo:NCIT_P108>
+        <obo:NCIT_P98>Nextstrain ID: 21K</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.1.529.1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BA.1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 BA.1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage BA.1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 BA.1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 BA.1.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 BA.1.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C185727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C185727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 25/27 and amino acid substitutions T19I, L24S, G142D, V213G, G339D, S371F, S373P, S375F, T376A, D405N, R408S, K417N, N440K, S477N, T478K, E484A, Q493R, Q498R, N501Y, Y505H, D614G, H655Y, N679K, P681H, N764K, D796Y, Q954H and N969K.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C185727</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 BA.2</obo:NCIT_P108>
+        <obo:NCIT_P98>Nextstrain ID: 21L</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.1.529.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BA.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 BA.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage BA.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 BA.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 BA.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 BA.2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C187216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C187216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 25/27 and amino acid substitutions T19I, L24S, G142D, V213G, G339D, S371F, S373P, S375F, T376A, D405N, R408S, K417N, N440K, S477N, T478K, E484A, Q493R, Q498R, N501Y, Y505H, D614G, H655Y, N679K, P681H, N764K, D796Y, Q954H and N969K.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C187216</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 XE</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Recombinant Lineage of BA.1 and BA.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Recombinant Variant BA.1/BA.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage XE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 XE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 XE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 XE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>XE</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 XE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C187217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C187217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 25/27 and 69/70 and amino acid substitutions T19I, L24S, G142D, V213G, G339D, S371F, S373P, S375F, T376A, D405N, R408S, K417N, N440K, L452R, S477N, T478K, E484A, F486V, Q498R, N501Y, Y505H, D614G, H655Y, N679K, P681H, N764K, D796Y, Q954H and N969K.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C187217</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 BA.5</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>B.1.1.529.5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BA.5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 BA.5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage BA.5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 BA.5</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 BA.5</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 BA.5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C187218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C187218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 25/27 and 69/70 and amino acid substitutions T19I, L24S, G142D, V213G, G339D, S371F, S373P, S375F, T376A, D405N, R408S, K417N, N440K, L452R, S477N, T478K, E484A, F486V, Q498R, N501Y, Y505H, D614G, H655Y, N679K, P681H, N764K, D796Y, Q954H and N969K. This variant has two novel amino acid variations, a D61L substitution in the ORF6 protein and a L11F in the ORF7b protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C187218</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 BA.4</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>B.1.1.529.4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BA.4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 BA.4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage BA.4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 BA.4</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 BA.4</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 BA.4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C187219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C187219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 69/70, 143/145 and 212 and amino acid substitutions A67V, G142D, N211I, D614G, H655Y, N679K, P681H, N764K, D796Y, Q954H and N969K.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C187219</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 BA.3</obo:NCIT_P108>
+        <obo:NCIT_P98>Nextstrain ID: 21M</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.1.529.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BA.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 BA.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage BA.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 BA.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 BA.3</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 BA.3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C187220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C187220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 25/27 and amino acid substitutions T19I, L24S, G142D, V213G, G339D, S371F, S373P, S375F, T376A, D405N, R408S, K417N, N440K, L452Q, S477N, T478K, E484A, Q493R, Q498R, N501Y, Y505H, D614G, H655Y, N679K, P681H, S704L, N764K, D796Y, Q954H and N969K.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C187220</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 BA.2.12.1</obo:NCIT_P108>
+        <obo:NCIT_P98>Nextstrain ID: 21C</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.1.529.2.12.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BA.2.12.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 BA.2.12.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage BA.2.12.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 B.1.128.2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 BA.2.12.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 BA.2.12.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 BA.2.12.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C187221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C187221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169076"/>
+        <obo:IAO_0000115>A variant lineage of SARS coronavirus 2 where the following variations in the spike glycoprotein sequence have been identified: deletions of the amino acids at positions 69/70, 143/145 and 212 and amino acid substitutions A67V, T95I, G142D, N211I, G339D, S371L, S373P, S375F, S477N, T478K, E484A, Q493R, G496S, Q498R, N501Y, Y505H, T547K, D614G, H655Y, N679K, P681H, N764K, D796Y, N856K, Q954H, N969K and L981F.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C187221</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>SARS Coronavirus 2 BA.1</obo:NCIT_P108>
+        <obo:NCIT_P98>Nextstrain ID: 21K</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>B.1.1.529.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BA.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Omicron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 BA.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS Coronavirus 2 Variant Lineage BA.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 BA.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2 BA.1</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177415"/>
+        <rdfs:label>SARS Coronavirus 2 BA.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1908">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1908"/>
+        <obo:IAO_0000115>Any natural, endogenously-derived, synthetic or semi-synthetic compound with pharmacologic activity. A pharmacologic substance has one or more specific mechanism of action(s) through which it exerts one or more effect(s) on the human or animal body. They can be used to potentially prevent, diagnose, treat or relieve symptoms of a disease. Formulation specific agents and some combination agents are also classified as pharmacologic substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Pharmacologic Substance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1913">
+        <obo:IAO_0000115>Substances that are grouped or classified by chemical composition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Drug or Chemical by Structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C1932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1908"/>
+        <obo:IAO_0000115>A chemical that influences the properties of another chemical or biological function. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Chemical Modifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C735"/>
+        <obo:IAO_0000115>A family of globular proteins found in many plant and animal tissues that tend to bind a wide variety of ligands.  Albumin is the main protein in blood plasma.  Low serum levels occur in conditions associated with malnutrition, inflammation and liver and kidney diseases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Albumin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C718"/>
+        <obo:IAO_0000115>A class of molecules that includes amino acid monomers and amino acid polymers, of any length, linked by covalent peptide bonds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Amino Acid, Peptide, or Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C912"/>
+        <obo:IAO_0000115>A melanoma-associated antigen.  When administered in a vaccine formulation, gp100 antigen may stimulate a cytotoxic T cell HLA-A2.1-restricted immune response against tumors that express this antigen, which may result in a reduction in tumor size. (NCI04)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>gp100 Antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78275"/>
+        <obo:IAO_0000115>Any agent capable of preventing blood clot formation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Anticoagulant Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C113205"/>
+        <obo:IAO_0000115>A genus of single-stranded, positive-sense RNA viruses in the family coronaviridae. The coronavirus genome exhibits helical symmetry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C26431</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Virus</obo:NCIT_P106>
+        <obo:NCIT_P108>Coronavirus</obo:NCIT_P108>
+        <obo:NCIT_P207>C0206419</obo:NCIT_P207>
+        <obo:NCIT_P331>11119</obo:NCIT_P331>
+        <obo:NCIT_P366>Coronavirus</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Coronavirus</oboInOwl:hasExactSynonym>
+        <rdfs:label>Coronavirus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C307"/>
+        <obo:IAO_0000115>Any substance, generally a protein, that stimulates the immune system and elicits an immune response.  Recognition by the immune system elicits either a T-lymphocyte response, recognizing processed antigens, or a B-lymphocyte response, producing antibodies that bind to unprocessed antigens.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C894"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Bacterial Toxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C307">
+        <obo:IAO_0000115>Biotechnology-derived pharmaceutical agents made from living organisms or their products. Includes recombinant proteins, monoclonal antibodies, and nucleic acids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Biological Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C718"/>
+        <obo:IAO_0000115>A class of hydrocarbons with an empirical formula of Cm(H20)n (where m and n may be equal) and includes monomers, polymers and derivatives of aldoses, ketoses, saccharides, and alditols.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Carbohydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C50918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C50918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C296"/>
+        <obo:IAO_0000115>The lipopolysaccharide complexes that are part of the outer membrane of the cell wall of Gram-negative bacteria such as E. coli, Salmonella, Shigella, Pseudomonas, Neisseria, Haemophilus, and other leading pathogens. Upon bacterial infections, the lipid component (Lipid A) of endotoxin contributes to its toxicity, while the polysaccharide components contribute to immunogenicity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Endotoxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C344"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C616"/>
+        <obo:IAO_0000115>Sialoglycosphingolipids (synonym: gangliosides) are glycosphingolipids carrying one or more sialic residues. Sialic acid is the generic term for N-acetyl- or N-glycoloylneuraminic acid. Gangliosides are named as N-acetyl- (or N-glycoloyl-)neuraminosyl-(X)osylceramide, where (X) stands for the root name of the neutral oligosaccharide to which the sialosyl residue is attached; found principally in nerve tissue, spleen, and thymus; GM1 accumulates in generalized gangliosidosis; GM2 accumulates in Tay-Sachs disease.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Ganglioside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C616">
+        <obo:IAO_0000115>A class of hydrocarbon-containing organic compounds. Lipids are insoluble in water but soluble in nonpolar solvents and play important roles in living organisms: these roles include functioning as energy storage molecules, serving as structural components of cell membranes, and constituting important signaling molecules. Lipids can be subdivided into 2 groups: fatty acids and glycerides.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Lipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C718">
+        <obo:IAO_0000115>Molecule that contains atoms of the element carbon, usually combined with itself and with atoms of one or more other element such as hydrogen, oxygen, nitrogen, sulfur, phosphorus, chlorine, or fluorine. Excludes carbides, carbonates and carbon oxides.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Organic Chemical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C73224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C73224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173066"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C180619"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Dabigatran</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C232"/>
+        <obo:IAO_0000115>A compound of two or more amino acids where the alpha carboxyl group of one is bound to the alpha amino group of another.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Peptide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C78275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C78275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1909"/>
+        <obo:IAO_0000115>An agent that exerts an effect on the synthesis or function of blood, blood components or body fluids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Agent Affecting Blood or Body Fluid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C894">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1932"/>
+        <obo:IAO_0000115>A chemical, physical, or biological agent that causes disease or some alteration of the normal structure and function of an organism. Usually refers to poisonous substance produced during the metabolism and growth of certain microorganisms and some higher plant and animal species, or any poisonous isomer, homolog, or derivative of such a substance. It causes either permanent or reversible injury to the health of a living thing on contact or absorption, typically by interacting with biological macromolecules such as enzymes and receptors. Onset of effects may be immediate or delayed, and impairments may be slight or severe. (NCI)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Toxin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C912">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C268"/>
+        <obo:IAO_0000115>1. antigens that may be frequently associated with tumors or may be specifically found on tumor cells of the same origin (tumor specific); 2. tumor antigens may also be associated with replication and transformation by certain DNA tumor viruses, including adenoviruses and papovaviruses. Neoantigens. Any immunologically detectable marker whose presence or amount indicates the presence of a tumor.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Tumor Antigen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000000797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000000797">
+        <obo:IAO_0000118>CALC2</obo:IAO_0000118>
+        <obo:IAO_0000118>CGRP-II</obo:IAO_0000118>
+        <obo:IAO_0000118>CGRP2</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>797</obo:OGG_0000000006>
+        <obo:OGG_0000000008>11p15.2-p15.1</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017>11</obo:OGG_0000000017>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0005184 (EC: TAS, PMID: 2985435); GO_0005576 (EC: TAS); GO_0006874 (EC: TAS, PMID: 2985435); GO_0007165 (EC: TAS, PMID: 2985435)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 1318039; 2322288; 2985435; 3492393; 3492492; 3493259; 6091915; 8468047; 11803621; 12036966; 12477932; 14702039; 15489334; 15761041; 18240029; 18577758; 19086053; 19192276; 21641113</obo:OGG_0000000030>
+        <dc:description>calcitonin-related polypeptide beta</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000175868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:1438</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:11742</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:114160</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000164629</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>calcitonin-related polypeptide beta</oboInOwl:hasExactSynonym>
+        <rdfs:label>CALCB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000002217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000002217">
+        <obo:IAO_0000118>FCRN</obo:IAO_0000118>
+        <obo:IAO_0000118>alpha-chain</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>2217</obo:OGG_0000000006>
+        <obo:OGG_0000000008>19q13.3</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017>19</obo:OGG_0000000017>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0002416 (EC: NAS, PMID: 7964511); GO_0003823 (EC: IBA); GO_0005886 (EC: IBA); GO_0006955 (EC: IEA); GO_0016021 (EC: IEA); GO_0019770 (EC: IBA); GO_0019864 (EC: IDA, PMID: 7964511); GO_0019882 (EC: IBA); GO_0030881 (EC: IBA); GO_0038094 (EC: IBA)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 7964511; 8145026; 8646894; 8871627; 9439449; 9493268; 10933786; 10998088; 11207281; 11717196; 12006623; 12023961; 12144784; 12477932; 12538789; 12566415; 12885906; 12972260; 14630397; 14764666; 14767057; 15258288; 15340161; 15489334; 15644205; 15654966; 15689494; 16229888; 16303743; 16549777; 16805790; 16849638; 17046328; 17048273; 17384151; 17674040; 17703228; 17709515; 18003977; 18566411; 18599440; 18637944; 18684948; 18843053; 19164298; 19275696; 19362735; 19423540; 19451275; 19462839; 19772792; 20006594; 20018855; 20083659; 20139978; 20406964; 20438785; 20452034; 20592032; 20627700; 20639872; 20930418; 21256596; 21368166; 21690327; 22215085; 22570488; 23022100; 23220220; 23286945; 23384837; 23741050; 23751752; 23765230; 23917469</obo:OGG_0000000030>
+        <dc:description>Fc fragment of IgG, receptor, transporter, alpha</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000104870</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:3621</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:03257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:601437</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000183155</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Fc fragment of IgG, receptor, transporter, alpha</oboInOwl:hasExactSynonym>
+        <rdfs:label>FCGRT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000008869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000008869">
+        <obo:IAO_0000118>SATI</obo:IAO_0000118>
+        <obo:IAO_0000118>SIAT9</obo:IAO_0000118>
+        <obo:IAO_0000118>SIATGM3S</obo:IAO_0000118>
+        <obo:IAO_0000118>ST3GalV</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>8869</obo:OGG_0000000006>
+        <obo:OGG_0000000007>UNQ2510/PRO5998</obo:OGG_0000000007>
+        <obo:OGG_0000000008>2p11.2</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017>2</obo:OGG_0000000017>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0000139 (EC: NAS, PMID: 9822625); GO_0001574 (EC: NAS, PMID: 9822625); GO_0004513 (EC: TAS, PMID: 9822625); GO_0005887 (EC: TAS, PMID: 9822625); GO_0005975 (EC: TAS, PMID: 9822625); GO_0006486 (EC: IEA); GO_0006688 (EC: TAS, PMID: 10092602); GO_0008373 (EC: TAS, PMID: 10092602); GO_0016021 (EC: TAS, PMID: 10092602); GO_0030173 (EC: IEA); GO_0047291 (EC: IDA, PMID: 9822625); GO_0097503 (EC: IDA, PMID: 9822625); GO_0097503 (EC: TAS, PMID: 10092602)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 8889548; 9822625; 10092602; 10619706; 11030748; 11595162; 12393190; 12477932; 12527423; 12975309; 14702039; 15385432; 15502825; 15815621; 16934889; 18051367; 18187620; 18480157; 18974200; 19415461; 19709745; 19759399; 20219466; 20628624; 20800603; 21571640; 21699754; 22990144</obo:OGG_0000000030>
+        <dc:description>ST3 beta-galactoside alpha-2,3-sialyltransferase 5</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000115525</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:10872</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:05098</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:604402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000130171</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ST3 beta-galactoside alpha-2,3-sialyltransferase 5</oboInOwl:hasExactSynonym>
+        <rdfs:label>ST3GAL5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000010203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000010203">
+        <obo:IAO_0000118>CGRPR</obo:IAO_0000118>
+        <obo:IAO_0000118>CRLR</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>10203</obo:OGG_0000000006>
+        <obo:OGG_0000000008>2q32.1</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017>2</obo:OGG_0000000017>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0001525 (EC: IDA); GO_0001605 (EC: IDA); GO_0001635 (EC: IEA); GO_0004930 (EC: TAS, PMID: 7818539); GO_0004948 (EC: IEA); GO_0005515 (EC: IPI); GO_0005764 (EC: IDA, PMID: 10882736); GO_0005768 (EC: IDA, PMID: 10882736); GO_0005783 (EC: IDA, PMID: 10882736); GO_0005886 (EC: IDA, PMID: 10882736); GO_0005886 (EC: IDA, Qualifier: colocalizes_with, PMID: 9620797); GO_0005886 (EC: TAS); GO_0005887 (EC: TAS, PMID: 7818539); GO_0006171 (EC: IDA); GO_0006816 (EC: IDA, PMID: 10882736); GO_0006937 (EC: IEA); GO_0007187 (EC: TAS, PMID: 7818539); GO_0007189 (EC: IEA); GO_0007507 (EC: IEA); GO_0008565 (EC: IDA, PMID: 9620797); GO_0015031 (EC: IDA, PMID: 9620797); GO_0030819 (EC: IDA, PMID: 10882736); GO_0031623 (EC: IDA); GO_0048661 (EC: IEA); GO_0050728 (EC: IEA); GO_0071329 (EC: IDA, PMID: 10882736)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 2826160; 3001670; 7818539; 8626685; 9620797; 9876047; 10217420; 10767413; 10772950; 10882736; 10903324; 11387328; 11389975; 11420389; 11535606; 11693189; 11814625; 11921352; 11937264; 11973435; 12036966; 12084528; 12093471; 12128288; 12213903; 12234182; 12419522; 12490608; 12538603; 12574158; 12630808; 12684503; 12684703; 12824306; 14668209; 14722252; 15245870; 15300632; 15340161; 15613468; 15641806; 15797661; 16293613; 16344560; 16410241; 16495482; 16622024; 17067815; 17310067; 17503773; 17675298; 17785463; 18039931; 18198792; 18240029; 19210874; 19394311; 19581316; 19598235; 19898635; 19903822; 19913063; 20074556; 20379614; 20424473; 20946927; 20954838; 21703310; 22102369; 22142144; 22208649; 22484227; 22933837; 24047872</obo:OGG_0000000030>
+        <dc:description>calcitonin receptor-like</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000064989</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:16709</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:11809</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:114190</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000132636</oboInOwl:hasDbXref>
+        <rdfs:label>CALCRL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000027329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000027329">
+        <obo:IAO_0000118>ANG-5</obo:IAO_0000118>
+        <obo:IAO_0000118>ANGPT5</obo:IAO_0000118>
+        <obo:IAO_0000118>ANL3</obo:IAO_0000118>
+        <obo:IAO_0000118>FHBL2</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>27329</obo:OGG_0000000006>
+        <obo:OGG_0000000007>UNQ153/PRO179</obo:OGG_0000000007>
+        <obo:OGG_0000000008>1p31.3</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017>1</obo:OGG_0000000017>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0004857 (EC: ISS); GO_0004859 (EC: IDA, PMID: 17110602); GO_0005178 (EC: IPI, PMID: 11877390); GO_0005615 (EC: IDA, PMID: 17110602); GO_0006071 (EC: IDA, PMID: 12565906); GO_0006631 (EC: IDA, PMID: 12565906); GO_0006644 (EC: IDA, PMID: 17110602); GO_0007160 (EC: IPI, PMID: 11877390); GO_0007165 (EC: IDA, PMID: 11877390); GO_0007229 (EC: NAS, PMID: 11877390); GO_0008083 (EC: IDA, PMID: 11877390); GO_0008203 (EC: IDA, PMID: 17110602); GO_0009395 (EC: IDA, PMID: 17110602); GO_0009725 (EC: IEA); GO_0009986 (EC: IDA, PMID: 12565906); GO_0010519 (EC: IDA, PMID: 17110602); GO_0019915 (EC: IDA, PMID: 12565906); GO_0030335 (EC: IDA, PMID: 11877390); GO_0042632 (EC: IDA, PMID: 17110602); GO_0045766 (EC: IDA, PMID: 11877390); GO_0048844 (EC: ISS); GO_0050996 (EC: IDA, PMID: 12565906); GO_0051005 (EC: IDA, PMID: 17110602); GO_0055088 (EC: IDA, PMID: 17110602); GO_0055090 (EC: IDA, PMID: 17110602); GO_0055091 (EC: IDA, PMID: 17110602); GO_0070328 (EC: IGI); GO_0070328 (EC: ISS)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 10644446; 11877390; 12477932; 12518032; 12565906; 12672813; 12909640; 12975309; 15094378; 15340161; 15489334; 16335952; 16505486; 16531751; 17110602; 17207965; 17681148; 18063851; 18193043; 18193044; 18279878; 18535744; 18596051; 18804459; 19028676; 19060906; 19075393; 19148283; 19282754; 19318355; 19474742; 19487539; 19540497; 19542565; 19656773; 19826106; 19890028; 19936222; 20139978; 20160193; 20360639; 20570916; 20571754; 20595410; 20679960; 20686565; 20714348; 20837471; 20855565; 20864672; 20942659; 20972250; 21691831; 21983347; 22062970; 22095935; 22155345; 22247256; 22286219; 22659251; 22732211; 22896670; 22916037; 23314748; 23661675; 23839332</obo:OGG_0000000030>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000132855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:491</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:10381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:604774</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000009146</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>angiopoietin-like 3</oboInOwl:hasExactSynonym>
+        <rdfs:label>ANGPTL3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000133396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000133396">
+        <obo:IAO_0000118>CRL</obo:IAO_0000118>
+        <obo:IAO_0000118>CRL3</obo:IAO_0000118>
+        <obo:IAO_0000118>GLM-R</obo:IAO_0000118>
+        <obo:IAO_0000118>GLMR</obo:IAO_0000118>
+        <obo:IAO_0000118>GPL</obo:IAO_0000118>
+        <obo:IAO_0000118>IL-31RA</obo:IAO_0000118>
+        <obo:IAO_0000118>PLCA2</obo:IAO_0000118>
+        <obo:IAO_0000118>PRO21384</obo:IAO_0000118>
+        <obo:IAO_0000118>hGLM-R</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://www.ncbi.nlm.nih.gov/gene</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:OGG_0000000006>133396</obo:OGG_0000000006>
+        <obo:OGG_0000000007>UNQ6368/PRO21073/PRO21384</obo:OGG_0000000007>
+        <obo:OGG_0000000008>5q11.2</obo:OGG_0000000008>
+        <obo:OGG_0000000009>20140408</obo:OGG_0000000009>
+        <obo:OGG_0000000017>5</obo:OGG_0000000017>
+        <obo:OGG_0000000019>Official from a nomenclature committee</obo:OGG_0000000019>
+        <obo:OGG_0000000029>GO_0000165 (EC: NAS, PMID: 11877449); GO_0003713 (EC: NAS, PMID: 11877449); GO_0004896 (EC: TAS, PMID: 11877449); GO_0005886 (EC: IEA); GO_0006952 (EC: NAS, PMID: 11877449); GO_0007169 (EC: NAS, PMID: 11877449); GO_0007259 (EC: IEP, PMID: 11877449); GO_0008284 (EC: IDA, PMID: 11877449); GO_0016021 (EC: NAS, PMID: 11877449); GO_0019221 (EC: TAS, PMID: 11877449); GO_0019901 (EC: NAS, PMID: 11877449); GO_0019955 (EC: NAS, PMID: 11877449); GO_0030224 (EC: IEP, PMID: 11877449); GO_0030225 (EC: NAS, PMID: 11877449); GO_0042517 (EC: IEP, PMID: 11877449); GO_0042523 (EC: IEP, PMID: 11877449); GO_0042592 (EC: NAS, PMID: 11877449); GO_0043031 (EC: NAS, PMID: 11877449); GO_0043066 (EC: NAS, PMID: 11877449); GO_0045893 (EC: NAS, PMID: 11877449)</obo:OGG_0000000029>
+        <obo:OGG_0000000030>PMID: 11329013; 11877449; 12477932; 12975309; 14504285; 15184896; 15194700; 15340161; 15489334; 15627637; 16461143; 18580959; 18926762; 19690585; 19730683; 20237496; 20379614; 20849534; 23128233; 23392388</obo:OGG_0000000030>
+        <dc:description>interleukin 31 receptor A</dc:description>
+        <oboInOwl:hasDbXref>Ensembl:ENSG00000164509</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HGNC:18969</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HPRD:17145</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIM:609510</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Vega:OTTHUMG00000097045</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>interleukin 31 receptor A</oboInOwl:hasExactSynonym>
+        <rdfs:label>IL31RA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009004">
+        <obo:IAO_0000115>A protein that is a translation product of the human IL31RA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>IUPHARobj:1710</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>GLM-R</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IL-31 receptor subunit alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IL-31R subunit alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IL-31R-alpha</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IL-31RA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IL31RA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NR10</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ZcytoR17</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cytokine receptor-like 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gp130-like monocyte receptor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gp130-like receptor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>novel cytokine receptor 10</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CRL3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>GPL</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Glmr</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>UNQ6368/PRO21073/PRO21384</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:000009004</oboInOwl:id>
+        <rdfs:comment>Category=gene.</rdfs:comment>
+        <rdfs:label>interleukin-31 receptor A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P10092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P10092">
+        <obo:IAO_0000115>A calcitonin gene-related peptide 2 that is encoded in the genome of human.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>UniProtKB:P10092</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CGRP-II (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>beta-CGRP (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>beta-type CGRP (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>calcitonin gene-related peptide II (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hCALCB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CALC2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CALCB</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:P10092</oboInOwl:id>
+        <rdfs:comment>Category=organism-gene.</rdfs:comment>
+        <rdfs:label>calcitonin gene-related peptide 2 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P55899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P55899">
+        <obo:IAO_0000115>An IgG receptor FcRn large subunit p51 that is encoded in the genome of human.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>UniProtKB:P55899</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>IgG Fc fragment receptor transporter alpha chain (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hFCGRT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neonatal Fc receptor (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>FCGRT</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>FCRN</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:P55899</oboInOwl:id>
+        <rdfs:comment>Category=organism-gene.</rdfs:comment>
+        <rdfs:label>IgG receptor FcRn large subunit p51 (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q16602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q16602">
+        <obo:IAO_0000115>A calcitonin gene-related peptide type 1 receptor that is encoded in the genome of human.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>DTO:02100049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q16602</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CGRP type 1 receptor (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>calcitonin receptor-like receptor (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hCALCRL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CALCRL</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CGRPR</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:Q16602</oboInOwl:id>
+        <rdfs:comment>Category=organism-gene.</rdfs:comment>
+        <rdfs:label>calcitonin gene-related peptide type 1 receptor (human)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9Y5C1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9Y5C1">
+        <obo:IAO_0000115>An angiopoietin-related protein 3 that is encoded in the genome of human.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <oboInOwl:hasDbXref>UniProtKB:Q9Y5C1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ANG-5 (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>angiopoietin-5 (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>angiopoietin-like protein 3 (human)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hANGPTL3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>ANGPT5</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ANGPTL3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>UNQ153/PRO179</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>PR:Q9Y5C1</oboInOwl:id>
+        <rdfs:comment>Category=organism-gene.</rdfs:comment>
+        <rdfs:label>angiopoietin-related protein 3 (human)</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
