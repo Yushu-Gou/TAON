@@ -1,2 +1,2 @@
 # TAON
-The metadata and owl file of TAON
+The TAON.rdf, metadata and the reuse ontology
