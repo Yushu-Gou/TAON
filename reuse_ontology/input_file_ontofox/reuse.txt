@@ -1,0 +1,323 @@
+#RO
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000051 #has part
+http://purl.obolibrary.org/obo/RO_0001000 #derives from
+http://purl.obolibrary.org/obo/RO_0002202 #develops from
+http://purl.obolibrary.org/obo/RO_0000087 #has role
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://www.w3.org/2002/07/owl#equivalentClass
+
+[Source annotation URIs to be excluded]
+
+##############################################################################################
+   
+#INN
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C128799
+http://purl.obolibrary.org/obo/NCIT_C76128
+http://purl.obolibrary.org/obo/NCIT_C65216
+http://purl.obolibrary.org/obo/NCIT_C148535
+http://purl.obolibrary.org/obo/NCIT_C82492
+http://purl.obolibrary.org/obo/NCIT_C166444
+http://purl.obolibrary.org/obo/NCIT_C1681
+http://purl.obolibrary.org/obo/NCIT_C174849
+http://purl.obolibrary.org/obo/NCIT_C124993
+http://purl.obolibrary.org/obo/NCIT_C175227
+http://purl.obolibrary.org/obo/NCIT_C166658
+http://purl.obolibrary.org/obo/NCIT_C175743
+http://purl.obolibrary.org/obo/NCIT_C106250
+http://purl.obolibrary.org/obo/NCIT_C169793
+http://purl.obolibrary.org/obo/NCIT_C116870
+http://purl.obolibrary.org/obo/NCIT_C52186
+http://purl.obolibrary.org/obo/NCIT_C114299
+http://purl.obolibrary.org/obo/NCIT_C91385
+http://purl.obolibrary.org/obo/NCIT_C88594
+http://purl.obolibrary.org/obo/NCIT_C2039
+http://purl.obolibrary.org/obo/NCIT_C153084
+http://purl.obolibrary.org/obo/NCIT_C171829
+http://purl.obolibrary.org/obo/NCIT_C62528
+http://purl.obolibrary.org/obo/NCIT_C66944
+http://purl.obolibrary.org/obo/NCIT_C166971
+http://purl.obolibrary.org/obo/NCIT_C169818
+http://purl.obolibrary.org/obo/NCIT_C119744
+http://purl.obolibrary.org/obo/NCIT_C153379
+http://purl.obolibrary.org/obo/NCIT_C123816
+http://purl.obolibrary.org/obo/NCIT_C80971
+http://purl.obolibrary.org/obo/NCIT_C128625
+http://purl.obolibrary.org/obo/NCIT_C177087
+http://purl.obolibrary.org/obo/NCIT_C62445
+http://purl.obolibrary.org/obo/NCIT_C121540
+http://purl.obolibrary.org/obo/NCIT_C80972
+http://purl.obolibrary.org/obo/NCIT_C1723
+http://purl.obolibrary.org/obo/NCIT_C177058
+http://purl.obolibrary.org/obo/NCIT_C166914
+http://purl.obolibrary.org/obo/NCIT_C151947
+http://purl.obolibrary.org/obo/NCIT_C133543
+http://purl.obolibrary.org/obo/NCIT_C169867
+http://purl.obolibrary.org/obo/NCIT_C1569
+http://purl.obolibrary.org/obo/NCIT_C74007
+http://purl.obolibrary.org/obo/NCIT_C61313
+http://purl.obolibrary.org/obo/NCIT_C1570
+http://purl.obolibrary.org/obo/NCIT_C169918
+http://purl.obolibrary.org/obo/NCIT_C175773
+http://purl.obolibrary.org/obo/NCIT_C166484
+http://purl.obolibrary.org/obo/NCIT_C126799
+http://purl.obolibrary.org/obo/NCIT_C162455
+http://purl.obolibrary.org/obo/NCIT_C103194
+http://purl.obolibrary.org/obo/NCIT_C48386
+http://purl.obolibrary.org/obo/NCIT_C1554
+http://purl.obolibrary.org/obo/NCIT_C68831
+http://purl.obolibrary.org/obo/NCIT_C66982
+http://purl.obolibrary.org/obo/NCIT_C146860
+http://purl.obolibrary.org/obo/NCIT_C127123
+http://purl.obolibrary.org/obo/NCIT_C159541
+http://purl.obolibrary.org/obo/NCIT_C114500
+http://purl.obolibrary.org/obo/NCIT_C129714
+http://purl.obolibrary.org/obo/NCIT_C163022
+http://purl.obolibrary.org/obo/NCIT_C171835
+http://purl.obolibrary.org/obo/NCIT_C169958
+http://purl.obolibrary.org/obo/NCIT_C169973
+http://purl.obolibrary.org/obo/NCIT_C174672
+http://purl.obolibrary.org/obo/NCIT_C174885
+http://purl.obolibrary.org/obo/NCIT_C174842
+http://purl.obolibrary.org/obo/NCIT_C166816
+http://purl.obolibrary.org/obo/NCIT_C1806
+http://purl.obolibrary.org/obo/NCIT_C148159
+http://purl.obolibrary.org/obo/NCIT_C148486
+http://purl.obolibrary.org/obo/NCIT_C87766
+http://purl.obolibrary.org/obo/NCIT_C150390
+http://purl.obolibrary.org/obo/NCIT_C88612
+http://purl.obolibrary.org/obo/NCIT_C29981
+http://purl.obolibrary.org/obo/NCIT_C128646
+http://purl.obolibrary.org/obo/NCIT_C177063
+http://purl.obolibrary.org/obo/NCIT_C88283
+http://purl.obolibrary.org/obo/NCIT_C179282
+http://purl.obolibrary.org/obo/NCIT_C1789
+http://purl.obolibrary.org/obo/NCIT_C71542
+http://purl.obolibrary.org/obo/NCIT_C2654
+http://purl.obolibrary.org/obo/NCIT_C90578
+http://purl.obolibrary.org/obo/NCIT_C95787
+http://purl.obolibrary.org/obo/NCIT_C174646
+http://purl.obolibrary.org/obo/NCIT_C166535
+http://purl.obolibrary.org/obo/NCIT_C87767
+http://purl.obolibrary.org/obo/NCIT_C175105
+http://purl.obolibrary.org/obo/NCIT_C173804
+http://purl.obolibrary.org/obo/NCIT_C125549
+http://purl.obolibrary.org/obo/NCIT_C170146
+http://purl.obolibrary.org/obo/NCIT_C91733
+http://purl.obolibrary.org/obo/NCIT_C157376
+http://purl.obolibrary.org/obo/NCIT_C170182
+http://purl.obolibrary.org/obo/NCIT_C175143
+http://purl.obolibrary.org/obo/NCIT_C102566
+http://purl.obolibrary.org/obo/NCIT_C62510
+http://purl.obolibrary.org/obo/NCIT_C129691
+http://purl.obolibrary.org/obo/NCIT_C68819
+http://purl.obolibrary.org/obo/NCIT_C1321
+http://purl.obolibrary.org/obo/NCIT_C119952
+http://purl.obolibrary.org/obo/NCIT_C77862
+http://purl.obolibrary.org/obo/NCIT_C123428
+http://purl.obolibrary.org/obo/NCIT_C175159
+http://purl.obolibrary.org/obo/NCIT_C88281
+http://purl.obolibrary.org/obo/NCIT_C170211
+http://purl.obolibrary.org/obo/NCIT_C175830
+http://purl.obolibrary.org/obo/NCIT_C2733
+http://purl.obolibrary.org/obo/NCIT_C170224
+http://purl.obolibrary.org/obo/NCIT_C68814
+http://purl.obolibrary.org/obo/NCIT_C166561
+http://purl.obolibrary.org/obo/NCIT_C70741
+http://purl.obolibrary.org/obo/NCIT_C66250
+http://purl.obolibrary.org/obo/NCIT_C170242
+http://purl.obolibrary.org/obo/NCIT_C66952
+http://purl.obolibrary.org/obo/NCIT_C79825
+http://purl.obolibrary.org/obo/NCIT_C172654
+http://purl.obolibrary.org/obo/NCIT_C29299
+http://purl.obolibrary.org/obo/NCIT_C170251
+http://purl.obolibrary.org/obo/NCIT_C184868
+http://purl.obolibrary.org/obo/NCIT_C175183
+http://purl.obolibrary.org/obo/NCIT_C170281
+http://purl.obolibrary.org/obo/NCIT_C2625
+http://purl.obolibrary.org/obo/NCIT_C1857
+http://purl.obolibrary.org/obo/NCIT_C106432
+http://purl.obolibrary.org/obo/NCIT_C155879
+http://purl.obolibrary.org/obo/NCIT_C38692
+http://purl.obolibrary.org/obo/NCIT_C104153
+http://purl.obolibrary.org/obo/NCIT_C166423
+http://purl.obolibrary.org/obo/NCIT_C148155
+http://purl.obolibrary.org/obo/NCIT_C160717
+http://purl.obolibrary.org/obo/NCIT_C95024
+http://purl.obolibrary.org/obo/NCIT_C70792
+http://purl.obolibrary.org/obo/NCIT_C67562
+http://purl.obolibrary.org/obo/NCIT_C124657
+http://purl.obolibrary.org/obo/NCIT_C152160
+http://purl.obolibrary.org/obo/NCIT_C177084
+http://purl.obolibrary.org/obo/NCIT_C111999
+http://purl.obolibrary.org/obo/NCIT_C152197
+http://purl.obolibrary.org/obo/NCIT_C142168
+http://purl.obolibrary.org/obo/NCIT_C122680
+http://purl.obolibrary.org/obo/NCIT_C152227
+http://purl.obolibrary.org/obo/NCIT_C1702
+http://purl.obolibrary.org/obo/NCIT_C175226
+http://purl.obolibrary.org/obo/NCIT_C152246
+http://purl.obolibrary.org/obo/NCIT_C152270
+http://purl.obolibrary.org/obo/NCIT_C102783
+http://purl.obolibrary.org/obo/NCIT_C152302
+http://purl.obolibrary.org/obo/NCIT_C152307
+http://purl.obolibrary.org/obo/NCIT_C152315
+http://purl.obolibrary.org/obo/NCIT_C156738
+http://purl.obolibrary.org/obo/NCIT_C61084
+http://purl.obolibrary.org/obo/NCIT_C132992
+http://purl.obolibrary.org/obo/NCIT_C162504
+http://purl.obolibrary.org/obo/NCIT_C177059
+http://purl.obolibrary.org/obo/NCIT_C166849
+http://purl.obolibrary.org/obo/NCIT_C154550
+http://purl.obolibrary.org/obo/NCIT_C153093
+http://purl.obolibrary.org/obo/NCIT_C95768
+http://purl.obolibrary.org/obo/NCIT_C171839
+http://purl.obolibrary.org/obo/NCIT_C163992
+http://purl.obolibrary.org/obo/NCIT_C171840
+http://purl.obolibrary.org/obo/NCIT_C94208
+http://purl.obolibrary.org/obo/NCIT_C136823
+http://purl.obolibrary.org/obo/NCIT_C88647
+http://purl.obolibrary.org/obo/NCIT_C95797
+http://purl.obolibrary.org/obo/NCIT_C152582
+http://purl.obolibrary.org/obo/NCIT_C152627
+http://purl.obolibrary.org/obo/NCIT_C121775
+http://purl.obolibrary.org/obo/NCIT_C113164
+http://purl.obolibrary.org/obo/NCIT_C177082
+http://purl.obolibrary.org/obo/NCIT_C84217
+http://purl.obolibrary.org/obo/NCIT_C131334
+http://purl.obolibrary.org/obo/NCIT_C2543
+http://purl.obolibrary.org/obo/NCIT_C152710
+http://purl.obolibrary.org/obo/NCIT_C1647
+http://purl.obolibrary.org/obo/NCIT_C118674
+http://purl.obolibrary.org/obo/NCIT_C49085
+http://purl.obolibrary.org/obo/NCIT_C91078
+http://purl.obolibrary.org/obo/NCIT_C84237
+http://purl.obolibrary.org/obo/NCIT_C95798
+http://purl.obolibrary.org/obo/NCIT_C159549
+http://purl.obolibrary.org/obo/NCIT_C2381
+http://purl.obolibrary.org/obo/NCIT_C65220
+http://purl.obolibrary.org/obo/NCIT_C28898
+http://purl.obolibrary.org/obo/NCIT_C84137
+http://purl.obolibrary.org/obo/NCIT_C52183
+http://purl.obolibrary.org/obo/NCIT_C80255
+http://purl.obolibrary.org/obo/NCIT_C2682
+http://purl.obolibrary.org/obo/NCIT_C162879
+http://purl.obolibrary.org/obo/NCIT_C171659
+http://purl.obolibrary.org/obo/NCIT_C167039
+http://purl.obolibrary.org/obo/NCIT_C171817
+http://purl.obolibrary.org/obo/NCIT_C104012
+http://purl.obolibrary.org/obo/NCIT_C166498
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+##############################################################################################
+
+#chain
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+IMR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IMR_0002095 #heav chain
+includeAllChildren
+http://purl.obolibrary.org/obo/IMR_0002096 #light chain
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://www.w3.org/2002/07/owl#equivalentClass
+
+[Source annotation URIs to be excluded]
+
+##############################################################################################
+
+#NCIT_other
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C565 #IgA
+http://purl.obolibrary.org/obo/NCIT_C566 #IgD
+http://purl.obolibrary.org/obo/NCIT_C567 #IgE
+http://purl.obolibrary.org/obo/NCIT_C568 #IgG
+http://purl.obolibrary.org/obo/NCIT_C569 #IgM
+http://purl.obolibrary.org/obo/NCIT_C63927 #scFv
+http://purl.obolibrary.org/obo/NCIT_C13242 #C Region
+http://purl.obolibrary.org/obo/NCIT_C13245 #V Region
+http://purl.obolibrary.org/obo/NCIT_C13246 #Fab
+http://purl.obolibrary.org/obo/NCIT_C13247 #Fc
+http://purl.obolibrary.org/obo/NCIT_C13343 #Hinge Region
+http://purl.obolibrary.org/obo/NCIT_C13342 #CDR
+http://purl.obolibrary.org/obo/NCIT_C17561 #Fusion Protein
+http://purl.obolibrary.org/obo/NCIT_C66919 #Photoimmunotherapy
+http://purl.obolibrary.org/obo/NCIT_C1511 #Radioimmunoconjugate
+http://purl.obolibrary.org/obo/NCIT_C575 #Immunotoxin
+http://purl.obolibrary.org/obo/NCIT_C1512 #Immunoconjugate
+http://purl.obolibrary.org/obo/NCIT_C1454 #Bispecific Antibody
+http://purl.obolibrary.org/obo/NCIT_C20401 #Monoclonal Antibody
+http://purl.obolibrary.org/obo/NCIT_C38274 #Intravenous Bolus
+http://purl.obolibrary.org/obo/NCIT_C64995 #Intravenous Push
+http://purl.obolibrary.org/obo/NCIT_C38275 #Intravenous Infusion
+http://purl.obolibrary.org/obo/NCIT_C28161 #Intramuscular Route of Administration
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+
+
+

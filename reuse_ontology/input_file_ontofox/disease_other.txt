@@ -1,0 +1,345 @@
+#disease_2
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+MONDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MONDO_0013021
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0004728
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0043537
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0100491
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0018328
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0016595
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0019438
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0018456
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0026045
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0001509
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0018124
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0006559
+includeAllChildren
+http://purl.obolibrary.org/obo/MONDO_0043455
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MONDO_0000001 #disease
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+
+#disease_3
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0003354
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0005550
+http://purl.obolibrary.org/obo/HP_0100582
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+OMIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMIT_0026653
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_1001494
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+
+#disease_stage
+#NCIT
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C14140
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C14141
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C28064
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C63764
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C25535
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C73705
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C28065
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C14161
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C156784
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C14174
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C43623
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C25251
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C25254
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C14173
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C38014
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C25653
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C54035
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C70667
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C30103
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C28051
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C27966
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C28054
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C27970
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C27971
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C14151
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C154405
+http://purl.obolibrary.org/obo/NCIT_C128631
+http://purl.obolibrary.org/obo/NCIT_C2959
+http://purl.obolibrary.org/obo/NCIT_C61362
+http://purl.obolibrary.org/obo/NCIT_C19790
+http://purl.obolibrary.org/obo/NCIT_C137693
+http://purl.obolibrary.org/obo/NCIT_C48044
+http://purl.obolibrary.org/obo/NCIT_C16124
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C41009 #Qualifier
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+#BTO
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+BTO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BTO_0001133
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+#HP
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0025297
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+
+#Combination Drug
+#Pharmacologic Substance
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C505
+http://purl.obolibrary.org/obo/NCIT_C287
+http://purl.obolibrary.org/obo/NCIT_C106250
+http://purl.obolibrary.org/obo/NCIT_C38718
+http://purl.obolibrary.org/obo/NCIT_C52186
+http://purl.obolibrary.org/obo/NCIT_C73261
+http://purl.obolibrary.org/obo/NCIT_C2039
+http://purl.obolibrary.org/obo/NCIT_C1851
+http://purl.obolibrary.org/obo/NCIT_C52200
+http://purl.obolibrary.org/obo/NCIT_C146638
+http://purl.obolibrary.org/obo/NCIT_C1794
+http://purl.obolibrary.org/obo/NCIT_C1282
+http://purl.obolibrary.org/obo/NCIT_C52196
+http://purl.obolibrary.org/obo/NCIT_C362
+http://purl.obolibrary.org/obo/NCIT_C376
+http://purl.obolibrary.org/obo/NCIT_C68923
+http://purl.obolibrary.org/obo/NCIT_C211
+http://purl.obolibrary.org/obo/NCIT_C405
+http://purl.obolibrary.org/obo/NCIT_C422
+http://purl.obolibrary.org/obo/NCIT_C1526
+http://purl.obolibrary.org/obo/NCIT_C456
+http://purl.obolibrary.org/obo/NCIT_C103194
+http://purl.obolibrary.org/obo/NCIT_C98283
+http://purl.obolibrary.org/obo/NCIT_C65530
+http://purl.obolibrary.org/obo/NCIT_C491
+http://purl.obolibrary.org/obo/NCIT_C1094
+http://purl.obolibrary.org/obo/NCIT_C505
+http://purl.obolibrary.org/obo/NCIT_C66876
+http://purl.obolibrary.org/obo/NCIT_C539
+http://purl.obolibrary.org/obo/NCIT_C225
+http://purl.obolibrary.org/obo/NCIT_C587
+http://purl.obolibrary.org/obo/NCIT_C2654
+http://purl.obolibrary.org/obo/NCIT_C62040
+http://purl.obolibrary.org/obo/NCIT_C95124
+http://purl.obolibrary.org/obo/NCIT_C71631
+http://purl.obolibrary.org/obo/NCIT_C633
+http://purl.obolibrary.org/obo/NCIT_C642
+http://purl.obolibrary.org/obo/NCIT_C1468
+http://purl.obolibrary.org/obo/NCIT_C68814
+http://purl.obolibrary.org/obo/NCIT_C1411
+http://purl.obolibrary.org/obo/NCIT_C106432
+http://purl.obolibrary.org/obo/NCIT_C61614
+http://purl.obolibrary.org/obo/NCIT_C376
+http://purl.obolibrary.org/obo/NCIT_C1450
+http://purl.obolibrary.org/obo/NCIT_C770
+http://purl.obolibrary.org/obo/NCIT_C1702
+http://purl.obolibrary.org/obo/NCIT_C29505
+http://purl.obolibrary.org/obo/NCIT_C1413
+http://purl.obolibrary.org/obo/NCIT_C1647
+http://purl.obolibrary.org/obo/NCIT_C64768
+http://purl.obolibrary.org/obo/NCIT_C933
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C1909 #Pharmacologic Substance
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+#NCIT_other
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C15632
+http://purl.obolibrary.org/obo/NCIT_C9549
+http://purl.obolibrary.org/obo/NCIT_C15383
+http://purl.obolibrary.org/obo/NCIT_C63593
+http://purl.obolibrary.org/obo/NCIT_C11197
+http://purl.obolibrary.org/obo/NCIT_C2668
+http://purl.obolibrary.org/obo/NCIT_C15304
+http://purl.obolibrary.org/obo/NCIT_C72560
+http://purl.obolibrary.org/obo/NCIT_C15313
+http://purl.obolibrary.org/obo/NCIT_C870
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]

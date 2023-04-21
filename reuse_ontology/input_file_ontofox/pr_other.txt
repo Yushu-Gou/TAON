@@ -1,0 +1,130 @@
+#PR_2
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C214
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C73224
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C50918
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C1110
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C2386
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C1908 #Drug, Food, Chemical or Biomedical Material
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111 #iao:preferredTerm
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://www.geneontology.org/formats/oboInOwl#hasDefinition
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+
+#PR_3
+[URI of the OWL(RDF/XML) output file]
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C112271
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C112405
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C14267
+includeAllChildren
+http://purl.obolibrary.org/obo/NCIT_C169076
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C14250 #Organism
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
+
+###########################################################
+
+#PR_4
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_P55899
+http://purl.obolibrary.org/obo/PR_Q9Y5C1
+http://purl.obolibrary.org/obo/PR_000009004
+http://purl.obolibrary.org/obo/PR_P10092
+http://purl.obolibrary.org/obo/PR_Q16602
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+###########################################################
+[Source annotation URIs to be excluded]
+
+
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_84118
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+###########################################################
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGG_3000002217
+http://purl.obolibrary.org/obo/OGG_3000008869
+http://purl.obolibrary.org/obo/OGG_3000027329
+http://purl.obolibrary.org/obo/OGG_3000133396
+http://purl.obolibrary.org/obo/OGG_3000000797
+http://purl.obolibrary.org/obo/OGG_3000010203
+
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
