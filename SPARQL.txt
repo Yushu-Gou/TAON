@@ -1,0 +1,162 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://www.semanticweb.org/taon#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+
+# query 'Nanobody'
+SELECT ?Nb
+WHERE{
+?Nb rdfs:subClassOf :nanobody.	
+}
+
+-----------------------------------------------
+------------------------------------------------
+
+# usecase-1
+
+# query the highest frequency targets  
+SELECT ?Tar (COUNT(?Tar) AS ?count) 
+WHERE {
+?Ab rdfs:subClassOf :Oncology_drug.
+?Ab rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :has_target;
+    owl:someValuesFrom ?Tar].
+}
+GROUP BY ?Tar
+ORDER BY DESC(?count)
+LIMIT 5
+
+# from the highest frequency targets to indications-1
+SELECT ?Tar ?Ind (COUNT(DISTINCT ?Ab) AS ?count) 
+WHERE {
+    {
+        SELECT ?Tar1 (COUNT(?Ab1) AS ?count1)
+        WHERE {
+            ?Ab1 rdfs:subClassOf :Oncology_drug;
+                rdfs:subClassOf [
+                    owl:onProperty :has_target;
+                    owl:someValuesFrom ?Tar1 ].
+        }
+        GROUP BY ?Tar1
+        ORDER BY DESC(?count1)
+        LIMIT 5
+    }
+    # 绑定新变量并扩展查询
+    BIND(?Tar1 AS ?Tar).
+    BIND(?count1 AS ?count).
+     ?Ab rdfs:subClassOf :Oncology_drug;
+                rdfs:subClassOf [
+                    owl:onProperty :has_target;
+                    owl:someValuesFrom ?Tar].
+    ?Drg rdfs:subClassOf ?Ab;
+             rdfs:subClassOf :innovator_drug.
+    ?Drg_ind rdfs:subClassOf ?Drg.
+    ?Drg_ind rdfs:subClassOf [
+               a owl:Restriction;
+               owl:onProperty :has_indication;
+              owl:someValuesFrom ?Ind].
+}
+GROUP BY ?Ind ?Tar
+ORDER BY DESC(?count)
+
+# from the highest frequency targets to indications-2
+SELECT ?Tar ?Ind (COUNT(DISTINCT ?Ab) AS ?count) 
+WHERE {
+    {
+        SELECT ?Tar1 (COUNT(?Ab1) AS ?count1)
+        WHERE {
+            ?Ab1 rdfs:subClassOf :Oncology_drug;
+                rdfs:subClassOf [
+                    owl:onProperty :has_target;
+                    owl:someValuesFrom ?Tar1 ].
+        }
+        GROUP BY ?Tar1
+        ORDER BY DESC(?count1)
+        LIMIT 5
+    }
+    # 绑定新变量并扩展查询
+    BIND(?Tar1 AS ?Tar).
+    BIND(?count1 AS ?count).
+     ?Ab rdfs:subClassOf :Oncology_drug;
+                rdfs:subClassOf [
+                    owl:onProperty :has_target;
+                    owl:someValuesFrom ?Tar].
+    ?Drg rdfs:subClassOf ?Ab;
+             rdfs:subClassOf :innovator_drug.
+    ?Drg_ind rdfs:subClassOf ?Drg.
+    ?Drg_ind rdfs:subClassOf [
+               a owl:Restriction;
+               owl:onProperty :has_indication;
+              owl:someValuesFrom ?Ind].
+}
+GROUP BY ?Ind ?Tar
+ORDER BY DESC(?Tar) DESC(?count)
+
+----------------------------------------------------------
+----------------------------------------------------------
+
+usecase-2
+
+# query 'Breast Carcinoma'
+SELECT DISTINCT ?Ab ?Tar
+WHERE {
+?Ab rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :has_target;
+    owl:someValuesFrom ?Tar].
+?Drg rdfs:subClassOf ?Ab;
+    rdfs:subClassOf :innovator_drug.
+?Drg_ind rdfs:subClassOf ?Drg.
+?Drg_ind rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :has_indication;
+    owl:someValuesFrom obo:NCIT_C4872].
+}
+ORDER BY ?Ab
+
+# query 'sacituzumab govitecan'
+SELECT DISTINCT ?Drg ?Cty ?Date ?Drg_ind ?Ind
+WHERE {
+?Drg rdfs:subClassOf obo:NCIT_C102783;
+     rdfs:subClassOf :innovator_drug.
+?Drg rdfs:subClassOf [
+     a owl:Restriction;
+     owl:onProperty :approved_from;
+     owl:someValuesFrom ?Cty].
+?Drg rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :approved_date;
+    owl:qualifiedCardinality ?Date].
+?Drg_ind rdfs:subClassOf ?Drg.
+?Drg_ind rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :has_indication;
+    owl:someValuesFrom ?Ind].
+}
+
+# query 'Payload'
+SELECT DISTINCT ?Ab ?Pal ?Linker
+WHERE {
+?Ab rdfs:subClassOf :ADC.
+?Drg rdfs:subClassOf ?Ab;
+    rdfs:subClassOf :innovator_drug.
+?Drg_ind rdfs:subClassOf ?Drg.
+?Drg_ind rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :has_indication;
+    owl:someValuesFrom obo:NCIT_C4872].
+?Ab rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :conjugate_with;
+    owl:someValuesFrom ?Pal].
+?Ab rdfs:subClassOf [
+    a owl:Restriction;
+    owl:onProperty :conjugate_with;
+    owl:someValuesFrom ?Linker].
+?Pal rdfs:subClassOf :payload.
+?Linker rdfs:subClassOf :linker.
+}
+ORDER BY ?Ab
